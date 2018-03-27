@@ -5,7 +5,7 @@ cmake_minimum_required(VERSION 2.8)
 #project(Project)
 
 # Find OpenCV, if you did not install opencv in the default path, you need to set OpenCV_DIR variable first
-set(OpenCV_DIR /home/shulx/Applicaions/opencv-3.2/share/OpenCV)
+set(OpenCV_DIR /path/to/opencv-3.2/share/OpenCV) #s Set the OpenCV path where you installed
 find_package(OpenCV)
 
 # Print some message showing some of them
